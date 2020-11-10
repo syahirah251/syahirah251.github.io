@@ -106,7 +106,7 @@ a.active, a:hover{
     content: '\2713\0020';
   }
 .Servis{
-    background: url("img/lightbg.png") center;
+    background: url("img/background.png") center;
     background-color: yellow;
     background-size: cover;
     width: 100%;
