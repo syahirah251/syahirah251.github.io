@@ -4,23 +4,24 @@
     font-family: sans-serif;
 }
 body{
-    background: url("img/background.png") center;
+    /* background: url("img/background.png") center; */
 }
 .title{
     padding: 15px 50px;
     background-color: #8ef7f7;
     filter: drop-shadow(0 0 3px #414144);
     background-size: auto;
-    margin-top: -5px;
+    margin-top: -2100px;
     margin-left: -10px;
     margin-right: -10px;
-    margin-bottom: 10px;
 }
 .container{
+    background: url("img/background.png") center;
     position: relative;
     display: flex;
     justify-content: left;
     align-items: left;
+    padding-top: 5%;
     padding-left: 80px;
     flex-direction: column;
 }
