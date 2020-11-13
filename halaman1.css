@@ -399,6 +399,12 @@ hr {
     color: black;
 }
 
+}
+
+.B-desc .BB-isi .B-icon  a:hoven{
+    color: blue;
+}
+
 .BB-isi{
     padding-top: 10px;
 }
