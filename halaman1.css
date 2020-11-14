@@ -401,7 +401,7 @@ hr {
 
 }
 
-.B-desc .BB-isi .B-icon  a:hoven{
+.B-desc .BB-isi .B-icon p a:hover{
     color: blue;
 }
 
