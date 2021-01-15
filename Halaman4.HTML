@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Homie Care</title>
 	<link rel="stylesheet" type="text/css" href="Halaman4.CSS">
 	<link rel="shortcut icon" type="image/x-icon" href="img/Homie.ico">
+	<script>
+		function SendWa(){
+			var message = document.getElementById("message").value
+			// alert(message)
+			location.href = "https://wa.me/6281331255119?text=" + message
+		}
+	</script>
 </head>
 <body>
 	<div class="header">
 		<a href="index.html"><img src="img/fontHomie.png" width="175"></a></div>
 	<div class="container">
-		<p>Message +62 82xx xxxx xxx <br>On
-			Whatsapp</p> 
-		<div class="button">
-			<button type="submit">Message</button>
-		</div>
+
+
+		<input id="message" value="Order!"></input> <br> <br>
+	<!-- 	<input type="submit" value="Message" id="Message" onclick="SendWa()"> -->
+		<label for="pesan">Klik Message <span>*</span></label>
+		<div class="btn">
+			<button type="submit" onclick="SendWa()">Message</button>
+		</div> 
 	</div>
 	<div class="ContactInfo">
 		<div class="Contact">
@@ -30,16 +42,16 @@
 					<p>senin-jumat: 9:00 – 15:00 
 					<br>sabtu-minggu: 11:00 – 16:00 </p>
 				</div>
-			</div>
+			</div> 
 			<div class="box">
-                <div class="icon"> <a href="Halaman4.HTML"><img src="img/whatsapp.png" width="18px"></a> </div>
+                <div class="icon"> <a href="https://wa.me/6281331255119" target="_blank"><img src="img/whatsapp.png" width="18px"></a> </div>
 				<div class="text">
-					<p>0857-Xxx-xxx
+					<p>0813-3125-5119
 					<br>0824-xxx-xxx</p>
 				</div>
 			</div>
 			<div class="box">
-				<div class="icon"> <img src="img/gmail.png" width="18px"></div>
+				<div class="icon"> <a href="mailto:Homie@Care.com"> <img src="img/gmail.png" width="18px"> </a> </div>
 				<div class="text">
 					<p>Homie.care@gmail.com</p>
 				</div>
