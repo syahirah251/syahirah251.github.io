@@ -1,4 +1,5 @@
 
+
 body{
 	margin: 0;
 	padding: 0;
@@ -9,7 +10,7 @@ body{
 .container {
 	padding-top: 10%;
 	padding-left: 80px;
-	padding-right: 20%;
+	padding-right: 30%;
 	background-image: url(img/background.png);
 }
 
@@ -52,7 +53,7 @@ body{
 	padding-bottom: 30px;
 }
 h3{
-	padding-left: 50px;
+	padding-left: 20px;
 }
 
 .box{
@@ -70,6 +71,7 @@ h3{
 }
 .text{
 	margin:-10px;
+	text-align: justify;
 }
 
 .footer {
@@ -88,6 +90,7 @@ h3{
 @media (max-width: 860px ){
 	.container {
 		padding-top: 15%;
+		padding-right: 20%;
 }
 @media (max-width: 660px ){
 	body{
@@ -98,10 +101,11 @@ h3{
 	.container {
 		padding-top: 15%;
 		padding-left: 40px;
+		padding-right: 10%;
 	}
 
 	.container .artikel1 h1 , .artikel2 h1, .artikel3 h1{
-		font-size: 24px;
+		font-size: 23px;
 	}
 
 	.container .artikel1 .gambar img, .artikel2 .gambar img{
@@ -112,5 +116,39 @@ h3{
 		width: 250px;
 		height: 120px;
 	}
+	h3{
+		font-size: 17.5px;
+	}
+
+	.footer {
+	padding-left: 20px;
+	}
+
+	.Contact{
+	padding-left: 20px;
+	}
 
 }
+
+@media (max-width: 320px ){
+	.container {
+		padding-left: 30px;
+	}
+	.container .artikel1 h1 , .artikel2 h1, .artikel3 h1{
+		font-size: 18px;
+	}
+
+	.container .artikel1 .gambar img, .artikel2 .gambar img{
+		width: 150px;
+	}
+	.container .artikel1 .penulis ,
+	.container .artikel2 .penulis
+	{
+		font-size: 12px;
+	}
+	.text{
+		font-size: 14px;
+	}
+	h3{
+		font-size: 16px;
+	}
